@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10FB71C1DE5B6090043234B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FB71B1DE5B6090043234B /* AppDelegate.swift */; };
+		E10FB71E1DE5B6090043234B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FB71D1DE5B6090043234B /* ViewController.swift */; };
+		E10FB7211DE5B6090043234B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10FB71F1DE5B6090043234B /* Main.storyboard */; };
+		E10FB7231DE5B6090043234B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10FB7221DE5B6090043234B /* Assets.xcassets */; };
+		E10FB7261DE5B6090043234B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10FB7241DE5B6090043234B /* LaunchScreen.storyboard */; };
+		E10FB7311DE5B6090043234B /* TouchPeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FB7301DE5B6090043234B /* TouchPeperTests.swift */; };
+		E10FB73C1DE5B6090043234B /* TouchPeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FB73B1DE5B6090043234B /* TouchPeperUITests.swift */; };
+		E10FB74A1DE5B6540043234B /* BackPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10FB7491DE5B6540043234B /* BackPanel.swift */; };
+		E12165821EB1F59100EA5936 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12165801EB1F59100EA5936 /* Realm.framework */; };
+		E12165831EB1F59100EA5936 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E12165801EB1F59100EA5936 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E12165841EB1F59100EA5936 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12165811EB1F59100EA5936 /* RealmSwift.framework */; };
+		E12165851EB1F59100EA5936 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E12165811EB1F59100EA5936 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E12165891EB2024A00EA5936 /* DataBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12165881EB2024A00EA5936 /* DataBank.swift */; };
+		E1469AE91DED928900D7183C /* BackPanelScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1469AE81DED928900D7183C /* BackPanelScroll.swift */; };
+		E17572471E38D5C7009AC2D9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E17572451E38D5C7009AC2D9 /* Model.xcdatamodeld */; };
+		E1A2EA511E11788600637A9F /* MoveTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A2EA501E11788600637A9F /* MoveTextField.swift */; };
+		E1D2AB971E1FCFD000300323 /* DrawLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D2AB961E1FCFD000300323 /* DrawLineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E10FB72D1DE5B6090043234B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10FB7101DE5B6090043234B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10FB7171DE5B6090043234B;
+			remoteInfo = TouchPeper;
+		};
+		E10FB7381DE5B6090043234B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10FB7101DE5B6090043234B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10FB7171DE5B6090043234B;
+			remoteInfo = TouchPeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E12165861EB1F59100EA5936 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E12165851EB1F59100EA5936 /* RealmSwift.framework in Embed Frameworks */,
+				E12165831EB1F59100EA5936 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E10FB7181DE5B6090043234B /* TouchPeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10FB71B1DE5B6090043234B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E10FB71D1DE5B6090043234B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E10FB7201DE5B6090043234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E10FB7221DE5B6090043234B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E10FB7251DE5B6090043234B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E10FB7271DE5B6090043234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10FB72C1DE5B6090043234B /* TouchPeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10FB7301DE5B6090043234B /* TouchPeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPeperTests.swift; sourceTree = "<group>"; };
+		E10FB7321DE5B6090043234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10FB7371DE5B6090043234B /* TouchPeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10FB73B1DE5B6090043234B /* TouchPeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPeperUITests.swift; sourceTree = "<group>"; };
+		E10FB73D1DE5B6090043234B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10FB7491DE5B6540043234B /* BackPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackPanel.swift; sourceTree = "<group>"; };
+		E12165801EB1F59100EA5936 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		E12165811EB1F59100EA5936 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		E12165881EB2024A00EA5936 /* DataBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBank.swift; sourceTree = "<group>"; };
+		E1469AE81DED928900D7183C /* BackPanelScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackPanelScroll.swift; sourceTree = "<group>"; };
+		E17572461E38D5C7009AC2D9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E1A2EA501E11788600637A9F /* MoveTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveTextField.swift; sourceTree = "<group>"; };
+		E1D2AB961E1FCFD000300323 /* DrawLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10FB7151DE5B6090043234B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12165841EB1F59100EA5936 /* RealmSwift.framework in Frameworks */,
+				E12165821EB1F59100EA5936 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10FB7291DE5B6090043234B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10FB7341DE5B6090043234B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10FB70F1DE5B6090043234B = {
+			isa = PBXGroup;
+			children = (
+				E12165801EB1F59100EA5936 /* Realm.framework */,
+				E12165811EB1F59100EA5936 /* RealmSwift.framework */,
+				E10FB71A1DE5B6090043234B /* TouchPeper */,
+				E10FB72F1DE5B6090043234B /* TouchPeperTests */,
+				E10FB73A1DE5B6090043234B /* TouchPeperUITests */,
+				E10FB7191DE5B6090043234B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10FB7191DE5B6090043234B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10FB7181DE5B6090043234B /* TouchPeper.app */,
+				E10FB72C1DE5B6090043234B /* TouchPeperTests.xctest */,
+				E10FB7371DE5B6090043234B /* TouchPeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10FB71A1DE5B6090043234B /* TouchPeper */ = {
+			isa = PBXGroup;
+			children = (
+				E1469AE81DED928900D7183C /* BackPanelScroll.swift */,
+				E10FB71B1DE5B6090043234B /* AppDelegate.swift */,
+				E10FB71D1DE5B6090043234B /* ViewController.swift */,
+				E12165881EB2024A00EA5936 /* DataBank.swift */,
+				E1D2AB961E1FCFD000300323 /* DrawLineView.swift */,
+				E17572451E38D5C7009AC2D9 /* Model.xcdatamodeld */,
+				E1A2EA501E11788600637A9F /* MoveTextField.swift */,
+				E10FB7491DE5B6540043234B /* BackPanel.swift */,
+				E10FB71F1DE5B6090043234B /* Main.storyboard */,
+				E10FB7221DE5B6090043234B /* Assets.xcassets */,
+				E10FB7241DE5B6090043234B /* LaunchScreen.storyboard */,
+				E10FB7271DE5B6090043234B /* Info.plist */,
+			);
+			path = TouchPeper;
+			sourceTree = "<group>";
+		};
+		E10FB72F1DE5B6090043234B /* TouchPeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E10FB7301DE5B6090043234B /* TouchPeperTests.swift */,
+				E10FB7321DE5B6090043234B /* Info.plist */,
+			);
+			path = TouchPeperTests;
+			sourceTree = "<group>";
+		};
+		E10FB73A1DE5B6090043234B /* TouchPeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E10FB73B1DE5B6090043234B /* TouchPeperUITests.swift */,
+				E10FB73D1DE5B6090043234B /* Info.plist */,
+			);
+			path = TouchPeperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10FB7171DE5B6090043234B /* TouchPeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10FB7401DE5B6090043234B /* Build configuration list for PBXNativeTarget "TouchPeper" */;
+			buildPhases = (
+				E10FB7141DE5B6090043234B /* Sources */,
+				E10FB7151DE5B6090043234B /* Frameworks */,
+				E10FB7161DE5B6090043234B /* Resources */,
+				E12165861EB1F59100EA5936 /* Embed Frameworks */,
+				E12165871EB1F6C700EA5936 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPeper;
+			productName = TouchPeper;
+			productReference = E10FB7181DE5B6090043234B /* TouchPeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10FB72B1DE5B6090043234B /* TouchPeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10FB7431DE5B6090043234B /* Build configuration list for PBXNativeTarget "TouchPeperTests" */;
+			buildPhases = (
+				E10FB7281DE5B6090043234B /* Sources */,
+				E10FB7291DE5B6090043234B /* Frameworks */,
+				E10FB72A1DE5B6090043234B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E10FB72E1DE5B6090043234B /* PBXTargetDependency */,
+			);
+			name = TouchPeperTests;
+			productName = TouchPeperTests;
+			productReference = E10FB72C1DE5B6090043234B /* TouchPeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E10FB7361DE5B6090043234B /* TouchPeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10FB7461DE5B6090043234B /* Build configuration list for PBXNativeTarget "TouchPeperUITests" */;
+			buildPhases = (
+				E10FB7331DE5B6090043234B /* Sources */,
+				E10FB7341DE5B6090043234B /* Frameworks */,
+				E10FB7351DE5B6090043234B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E10FB7391DE5B6090043234B /* PBXTargetDependency */,
+			);
+			name = TouchPeperUITests;
+			productName = TouchPeperUITests;
+			productReference = E10FB7371DE5B6090043234B /* TouchPeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10FB7101DE5B6090043234B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "新村彰啓";
+				TargetAttributes = {
+					E10FB7171DE5B6090043234B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YYBYKGJ7UV;
+						ProvisioningStyle = Automatic;
+					};
+					E10FB72B1DE5B6090043234B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YYBYKGJ7UV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E10FB7171DE5B6090043234B;
+					};
+					E10FB7361DE5B6090043234B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YYBYKGJ7UV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E10FB7171DE5B6090043234B;
+					};
+				};
+			};
+			buildConfigurationList = E10FB7131DE5B6090043234B /* Build configuration list for PBXProject "TouchPeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10FB70F1DE5B6090043234B;
+			productRefGroup = E10FB7191DE5B6090043234B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10FB7171DE5B6090043234B /* TouchPeper */,
+				E10FB72B1DE5B6090043234B /* TouchPeperTests */,
+				E10FB7361DE5B6090043234B /* TouchPeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10FB7161DE5B6090043234B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10FB7261DE5B6090043234B /* LaunchScreen.storyboard in Resources */,
+				E10FB7231DE5B6090043234B /* Assets.xcassets in Resources */,
+				E10FB7211DE5B6090043234B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10FB72A1DE5B6090043234B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10FB7351DE5B6090043234B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E12165871EB1F6C700EA5936 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10FB7141DE5B6090043234B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1469AE91DED928900D7183C /* BackPanelScroll.swift in Sources */,
+				E10FB71E1DE5B6090043234B /* ViewController.swift in Sources */,
+				E10FB71C1DE5B6090043234B /* AppDelegate.swift in Sources */,
+				E17572471E38D5C7009AC2D9 /* Model.xcdatamodeld in Sources */,
+				E10FB74A1DE5B6540043234B /* BackPanel.swift in Sources */,
+				E1D2AB971E1FCFD000300323 /* DrawLineView.swift in Sources */,
+				E1A2EA511E11788600637A9F /* MoveTextField.swift in Sources */,
+				E12165891EB2024A00EA5936 /* DataBank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10FB7281DE5B6090043234B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10FB7311DE5B6090043234B /* TouchPeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10FB7331DE5B6090043234B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10FB73C1DE5B6090043234B /* TouchPeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E10FB72E1DE5B6090043234B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10FB7171DE5B6090043234B /* TouchPeper */;
+			targetProxy = E10FB72D1DE5B6090043234B /* PBXContainerItemProxy */;
+		};
+		E10FB7391DE5B6090043234B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10FB7171DE5B6090043234B /* TouchPeper */;
+			targetProxy = E10FB7381DE5B6090043234B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E10FB71F1DE5B6090043234B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10FB7201DE5B6090043234B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E10FB7241DE5B6090043234B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10FB7251DE5B6090043234B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E10FB73E1DE5B6090043234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E10FB73F1DE5B6090043234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E10FB7411DE5B6090043234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YYBYKGJ7UV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TouchPeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MogaMoga.TouchPeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E10FB7421DE5B6090043234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YYBYKGJ7UV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TouchPeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MogaMoga.TouchPeper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E10FB7441DE5B6090043234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YYBYKGJ7UV;
+				INFOPLIST_FILE = TouchPeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MogaMoga.TouchPeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPeper.app/TouchPeper";
+			};
+			name = Debug;
+		};
+		E10FB7451DE5B6090043234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YYBYKGJ7UV;
+				INFOPLIST_FILE = TouchPeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MogaMoga.TouchPeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPeper.app/TouchPeper";
+			};
+			name = Release;
+		};
+		E10FB7471DE5B6090043234B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YYBYKGJ7UV;
+				INFOPLIST_FILE = TouchPeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MogaMoga.TouchPeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouchPeper;
+			};
+			name = Debug;
+		};
+		E10FB7481DE5B6090043234B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YYBYKGJ7UV;
+				INFOPLIST_FILE = TouchPeperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MogaMoga.TouchPeperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouchPeper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10FB7131DE5B6090043234B /* Build configuration list for PBXProject "TouchPeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10FB73E1DE5B6090043234B /* Debug */,
+				E10FB73F1DE5B6090043234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10FB7401DE5B6090043234B /* Build configuration list for PBXNativeTarget "TouchPeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10FB7411DE5B6090043234B /* Debug */,
+				E10FB7421DE5B6090043234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10FB7431DE5B6090043234B /* Build configuration list for PBXNativeTarget "TouchPeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10FB7441DE5B6090043234B /* Debug */,
+				E10FB7451DE5B6090043234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10FB7461DE5B6090043234B /* Build configuration list for PBXNativeTarget "TouchPeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10FB7471DE5B6090043234B /* Debug */,
+				E10FB7481DE5B6090043234B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E17572451E38D5C7009AC2D9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E17572461E38D5C7009AC2D9 /* Model.xcdatamodel */,
+			);
+			currentVersion = E17572461E38D5C7009AC2D9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E10FB7101DE5B6090043234B /* Project object */;
+}
